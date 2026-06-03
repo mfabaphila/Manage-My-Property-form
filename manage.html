@@ -77,16 +77,13 @@
 
             <div class="property-form">
                 <label>Number of Bedrooms</label>
-                <select>
+                <select id="bedrooms">
                     <option>Select</option>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>6</option>
-                    <option>6+</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="4+">4+</option>
                 </select> 
             </div>
 
@@ -110,11 +107,10 @@
 
             <div class="property-form">
                 <label>Residential Zone</label>
-                <select>
+                <select id="residentialZone">
                     <option>Select</option>
-                    <option>Urban Area</option>
-                    <option>Township</option>
-                    <option>Rural Area</option>
+                    <option value="Urban Area">Urban Area</option>
+                    <option value="Township">Township</option>
                 </select>
              </div>
 
@@ -129,12 +125,12 @@
     </div>
        
       <div class="property-form">
-                <button>Submit Form</button>
+                <button id="submitBtn">Submit Form</button>
             </div>
         
             <div id="estimate">
                   <label>Estimated Monthly Rent</label>
-                  <input type="text" placeholder="R">
+                  <input id="estimatedRent" type="text" placeholder="R">
             </div>
           
         
